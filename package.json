@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "test",
   "main": "index.js",
-  "repository": "github.com/lucas-engen/release-bot-test.git",
+  "repository": "https://github.com/lucas-engen/release-bot-test.git",
   "author": "Lucas Vieira <lucas.engen@outlook.com>",
   "license": "MIT"
 }
