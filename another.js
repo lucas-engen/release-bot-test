@@ -1,3 +1,3 @@
 import
 
-console.log("wioadaoiwd
+console.log("wioadaoiwd");
