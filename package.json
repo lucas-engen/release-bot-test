@@ -1,6 +1,6 @@
 {
   "name": "release-bot-test",
-  "version": "0.1.1-development",
+  "version": "0.0.0-development",
   "description": "test",
   "main": "index.js",
   "repository": "https://github.com/lucas-engen/release-bot-test.git",
@@ -10,15 +10,11 @@
     "@semantic-release/github": "^7.1.1"
   },
   "release": {
-    "branches": ["master" ]
+    "branches": [
+      "master"
+    ]
   },
-  "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
-    "@semantic-release/github"
-  ],
-  "verifyConditions": ["@semantic-release/github"],
-  "analyzeCommits": {
-    "preset": "angular"
+  "dependencies": {
+    "release": "^6.3.0"
   }
 }
