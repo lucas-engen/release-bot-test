@@ -1,7 +1,13 @@
 name: CI
 on: push
 jobs:
+  myjob:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: NoName
+        run: echo "hello world"
   test:
+    needs: [myjob]
     runs-on: ubuntu-16.04
     steps:
       - uses: actions/checkout@v2
