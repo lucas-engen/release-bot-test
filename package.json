@@ -13,5 +13,8 @@
     "branches": [
       "master"
     ]
+  },
+  "dependencies": {
+    "release": "^6.3.0"
   }
 }
