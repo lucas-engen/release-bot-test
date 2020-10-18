@@ -14,7 +14,14 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12'
+      - name: Install
+        run: npm install semantic-release-github
+  
+  release:
+    needs: [test]
+    runs-on: ubuntu-20.04
+    steps:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: npx semantic-release-github
+        run: npm semantic-release-github
