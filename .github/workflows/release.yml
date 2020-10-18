@@ -12,4 +12,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npm install
-        run: npx semantic-release-github
+             npx semantic-release-github
