@@ -1,6 +1,6 @@
 {
   "name": "release-bot-test",
-  "version": "0.1.1-development",
+  "version": "0.0.0-development",
   "description": "test",
   "main": "index.js",
   "repository": "https://github.com/lucas-engen/release-bot-test.git",
