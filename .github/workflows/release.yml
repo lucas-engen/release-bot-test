@@ -8,7 +8,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '14'
-      - name: Release
+      - name: Semver Release Manager
+      - uses: home-furnishing-nordic/semver-release-manager@v1.0.1
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: echo "remove release"
