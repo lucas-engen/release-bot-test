@@ -16,6 +16,5 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/github"
-  ],
-  "verifyConditions": ["@semantic-release/github"]
+  ]
 }
